@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  tesla-videos:
+    image: tesla-videos
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
